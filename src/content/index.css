@@ -1,0 +1,9 @@
+/* Minimal host styles — actual component styles live inside the shadow DOM */
+#lp-extension-overlay-host {
+  z-index: 2147483647;
+  pointer-events: none;
+}
+
+#lp-extension-overlay-host > * {
+  pointer-events: auto;
+}
